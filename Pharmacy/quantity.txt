@@ -1,0 +1,3 @@
+Paracetamol	23
+Amoxilin	32
+Orodah	45

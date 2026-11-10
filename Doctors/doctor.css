@@ -1,0 +1,37 @@
+window{
+    background-color: rgb(10, 30, 48);
+}
+
+#editor text {
+    background-color: #ffffff;
+    color:black;
+}
+
+#file_tree.view {
+    background-color: rgb(10, 30, 48);
+    color: white;
+}
+
+#file_tree.view:selected {
+    background-color: #333333;
+    color: white;
+}
+#file_tree.view:hover{
+    background-color: #b9b459;
+}
+#reception
+{
+background-image: none;
+background-color: green;
+color: white;
+}
+#pharmacy{
+background-image: none;
+background-color: rgb(0, 128, 255);
+color: white;
+}
+#back{
+background-image: none;
+background-color: black;
+color: white;
+}

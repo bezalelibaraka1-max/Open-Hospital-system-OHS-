@@ -1,0 +1,44 @@
+window{
+    background-color:rgb(35, 106, 248);
+}
+#sendbtn{
+    background-image:none;
+    background-color:rgb(217, 241, 0);
+    color: black;
+}
+
+#savebtn{
+    background-image:none;
+    background-color:green;
+    color: black;
+}
+
+#addbtn{
+    background-image:none;
+    background-color:rgb(255, 0, 0);
+    color:black;
+}
+#uploadbtn{
+    background-image: none;
+    background-color:orange;
+    color:black;
+}
+
+#editor.view{
+    background-color: rgb(255, 235, 235);
+    color:rgb(62, 39, 39);
+}
+#editor.hover{
+    background-color: grey;
+}
+
+#name{
+    background-color: white;
+    color: black;
+}
+
+
+#age{
+    background-color: white;
+    color: black;
+}

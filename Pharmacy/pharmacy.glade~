@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="mainwindow">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkStack" id="stack">
+            <property name="width-request">0</property>
+            <property name="height-request">442</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="transition-type">crossfade</property>
+            <child>
+              <object class="GtkLayout">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <child>
+                  <object class="GtkButton" id="one">
+                    <property name="label" translatable="yes">switch</property>
+                    <property name="width-request">81</property>
+                    <property name="height-request">46</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">16</property>
+                    <property name="y">22</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width-request">119</property>
+                    <property name="height-request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">Add Medicine</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Symbola Bold 10"/>
+                      <attribute name="scale" value="1"/>
+                      <attribute name="foreground" value="#ffff78780000"/>
+                      <attribute name="size" value="15360"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">167</property>
+                    <property name="y">22</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="add_med">
+                    <property name="width-request">168</property>
+                    <property name="height-request">44</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="placeholder-text" translatable="yes">Add Medicine</property>
+                  </object>
+                  <packing>
+                    <property name="x">141</property>
+                    <property name="y">86</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkScrolledWindow">
+                    <property name="width-request">369</property>
+                    <property name="height-request">216</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="shadow-type">in</property>
+                    <child>
+                      <object class="GtkTreeView" id="tree">
+                        <property name="visible">True</property>
+                        <property name="can-focus">True</property>
+                        <child internal-child="selection">
+                          <object class="GtkTreeSelection"/>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">45</property>
+                    <property name="y">161</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="add">
+                    <property name="label" translatable="yes">Add</property>
+                    <property name="width-request">0</property>
+                    <property name="height-request">0</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">316</property>
+                    <property name="y">91</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">medicine</property>
+                <property name="title" translatable="yes">medicine</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLayout">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <child>
+                  <object class="GtkButton" id="two">
+                    <property name="label" translatable="yes">switch</property>
+                    <property name="width-request">81</property>
+                    <property name="height-request">46</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">22</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="back_one">
+                    <property name="label" translatable="yes">back</property>
+                    <property name="width-request">81</property>
+                    <property name="height-request">46</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">349</property>
+                    <property name="y">22</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width-request">128</property>
+                    <property name="height-request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">Add Quantity</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Symbola Bold 10"/>
+                      <attribute name="foreground" value="#ffff78780000"/>
+                      <attribute name="size" value="16384"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">152</property>
+                    <property name="y">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="dropdown">
+                    <property name="width-request">148</property>
+                    <property name="height-request">40</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">142</property>
+                    <property name="y">75</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="q_med">
+                    <property name="width-request">0</property>
+                    <property name="height-request">0</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="placeholder-text" translatable="yes">Add quantity</property>
+                  </object>
+                  <packing>
+                    <property name="x">143</property>
+                    <property name="y">127</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="insert">
+                    <property name="label" translatable="yes">insert</property>
+                    <property name="width-request">56</property>
+                    <property name="height-request">33</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">316</property>
+                    <property name="y">127</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkScrolledWindow">
+                    <property name="width-request">369</property>
+                    <property name="height-request">216</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="shadow-type">in</property>
+                    <child>
+                      <object class="GtkTreeView" id="q_tree">
+                        <property name="visible">True</property>
+                        <property name="can-focus">True</property>
+                        <child internal-child="selection">
+                          <object class="GtkTreeSelection"/>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">43</property>
+                    <property name="y">172</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">quantity</property>
+                <property name="title" translatable="yes">quantity</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLayout">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <child>
+                  <object class="GtkButton" id="back_two">
+                    <property name="label" translatable="yes">back</property>
+                    <property name="width-request">81</property>
+                    <property name="height-request">46</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">22</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="width-request">100</property>
+                    <property name="height-request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">Activities</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Symbola Bold 10"/>
+                      <attribute name="foreground" value="#ffff78780000"/>
+                      <attribute name="size" value="15360"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">181</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="send">
+                    <property name="label" translatable="yes">Send</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">368</property>
+                    <property name="y">12</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="save">
+                    <property name="label" translatable="yes">Save</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">319</property>
+                    <property name="y">12</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkScrolledWindow">
+                    <property name="width-request">369</property>
+                    <property name="height-request">266</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="shadow-type">in</property>
+                    <child>
+                      <object class="GtkTreeView" id="r_tree">
+                        <property name="visible">True</property>
+                        <property name="can-focus">True</property>
+                        <child internal-child="selection">
+                          <object class="GtkTreeSelection"/>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x">39</property>
+                    <property name="y">105</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry">
+                    <property name="width-request">208</property>
+                    <property name="height-request">32</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="placeholder-text" translatable="yes">Name of the patient</property>
+                  </object>
+                  <packing>
+                    <property name="x">605</property>
+                    <property name="y">14</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBoxText" id="entry_combo">
+                    <property name="width-request">208</property>
+                    <property name="height-request">29</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                  </object>
+                  <packing>
+                    <property name="x">610</property>
+                    <property name="y">69</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="label" translatable="yes">okay</property>
+                    <property name="width-request">83</property>
+                    <property name="height-request">31</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">746</property>
+                    <property name="y">406</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton" id="spin_button">
+                    <property name="width-request">104</property>
+                    <property name="height-request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                  </object>
+                  <packing>
+                    <property name="x">712</property>
+                    <property name="y">122</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">report</property>
+                <property name="title" translatable="yes">report</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkAdjustment" id="quantity_adjust">
+    <property name="upper">50</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+</interface>

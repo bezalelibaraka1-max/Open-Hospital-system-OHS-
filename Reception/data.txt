@@ -1,0 +1,4 @@
+martha	23	female
+monica	28	female
+bastoni	25	male
+Pogba	33	male
