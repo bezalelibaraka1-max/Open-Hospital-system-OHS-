@@ -38,7 +38,7 @@ Use descriptive branch names
 -improvement/protocol
 
 ## Commit messages
-Use clear commit messages like "Fixing bug in doctor-panel
+Use clear commit messages like "Fixing bug in doctor-panel"
 
 ## License
 MIT license
